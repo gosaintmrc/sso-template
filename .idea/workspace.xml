@@ -109,8 +109,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="21" selection-start-column="21" selection-end-column="21" />
+              <first_editor relative-caret-position="33">
+                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -594,7 +594,7 @@
       <workItem from="1533778284066" duration="45000" />
       <workItem from="1533779330005" duration="752000" />
       <workItem from="1533801604826" duration="71000" />
-      <workItem from="1533802462977" duration="5118000" />
+      <workItem from="1533802462977" duration="5391000" />
     </task>
     <servers />
   </component>
@@ -622,10 +622,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33803000" />
+    <option name="totallyTimeSpent" value="34076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -985,8 +986,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="21" selection-start-column="21" selection-end-column="21" />
+          <first_editor relative-caret-position="33">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -1071,7 +1072,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.alibaba:druid:1.1.8</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
