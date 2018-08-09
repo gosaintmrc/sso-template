@@ -1,1 +1,1 @@
-# sso-template
+# sso-template 单点登录系统

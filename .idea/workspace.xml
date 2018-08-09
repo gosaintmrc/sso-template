@@ -10,27 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f54f360-3fd9-41f0-8041-cee74ce9c4d2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/SSOServerLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/resource/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/resource/dispatcherServlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-auth-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-auth-center/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-auth-center/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-auth-center/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-client-sys1/src/main/resource/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/src/main/resource/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-client-sys1/src/main/resource/dispatcherServlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/src/main/resource/dispatcherServlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-client-sys1/src/main/resource/sso.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/src/main/resource/sso.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-client-sys1/src/test/java/com/asiainfo/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/src/test/java/com/asiainfo/RedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-client-sys1/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-client-sys1/target/classes/com/asiainfo/web/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/target/classes/com/asiainfo/web/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-client-sys1/target/classes/dispatcherServlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/target/classes/dispatcherServlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-client-sys1/target/classes/sso/config/sso.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-client-sys1/target/sso-client-sys1/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/target/sso-client-sys1/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-client-sys1/target/sso-client-sys1/WEB-INF/classes/com/asiainfo/web/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/target/sso-client-sys1/WEB-INF/classes/com/asiainfo/web/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-client-sys1/target/sso-client-sys1/WEB-INF/classes/dispatcherServlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/target/sso-client-sys1/WEB-INF/classes/dispatcherServlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sso-client-sys1/target/test-classes/com/asiainfo/RedisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/target/test-classes/com/asiainfo/RedisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,15 +48,6 @@
                 <element signature="e#694#712#1" expanded="true" />
                 <element signature="e#760#784#1" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dispatcherServlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/resource/dispatcherServlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -122,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SSOServerLoginController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SSOServerLoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/SSOServerLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="99">
@@ -130,6 +101,18 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="21" selection-start-column="21" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -216,6 +199,7 @@
         <option value="$PROJECT_DIR$/sso-auth-center/src/main/resource/dispatcherServlet.xml" />
         <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/TestController.java" />
         <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/SSOServerLoginController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -610,7 +594,7 @@
       <workItem from="1533778284066" duration="45000" />
       <workItem from="1533779330005" duration="752000" />
       <workItem from="1533801604826" duration="71000" />
-      <workItem from="1533802462977" duration="4113000" />
+      <workItem from="1533802462977" duration="5118000" />
     </task>
     <servers />
   </component>
@@ -638,7 +622,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32798000" />
+    <option name="totallyTimeSpent" value="33803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -688,13 +672,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/resource/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -1002,6 +979,16 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="21" selection-start-column="21" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
