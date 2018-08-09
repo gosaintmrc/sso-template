@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f54f360-3fd9-41f0-8041-cee74ce9c4d2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/static/timg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="58" column="41" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="41" />
+              <caret line="58" column="41" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#694#712#1" expanded="true" />
@@ -110,7 +111,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="66">
-                <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
+                <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
               </first_editor>
               <second_editor />
             </state>
@@ -246,6 +247,11 @@
               <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
               <item name="sso-template" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-template" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -276,11 +282,11 @@
       <recent name="com.asiainfo.web.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\gosaint\IdeaProjects\sso-template\static" />
       <recent name="D:\Users\gosaint\IdeaProjects\sso-template" />
       <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-auth-center\src\main\resource" />
       <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-client-sys1\src\main\resource" />
       <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-client-sys1\src\main\webapp\static" />
-      <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-client-sys1\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -578,7 +584,7 @@
       <workItem from="1533778284066" duration="45000" />
       <workItem from="1533779330005" duration="752000" />
       <workItem from="1533801604826" duration="71000" />
-      <workItem from="1533802462977" duration="6193000" />
+      <workItem from="1533802462977" duration="6662000" />
     </task>
     <servers />
   </component>
@@ -606,7 +612,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34878000" />
+    <option name="totallyTimeSpent" value="35347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -948,7 +954,7 @@
     <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="58" column="41" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="41" />
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#694#712#1" expanded="true" />
@@ -971,7 +977,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="66">
-            <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
+            <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
           </first_editor>
           <second_editor />
         </state>
