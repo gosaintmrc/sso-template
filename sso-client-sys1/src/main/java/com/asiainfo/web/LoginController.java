@@ -50,19 +50,18 @@ public class LoginController {
      * @param to
      * @return
      */
-   /* @RequestMapping("/client/login")
-    @ResponseBody*/
+    @RequestMapping("/client/login")
+    @ResponseBody
     public String login(String  serviceTicket,String to){
         String redirectUrl = "";
         if(StringUtils.isEmpty(serviceTicket)){
             /** 无票据跳转SSO认证中心，并且携带上该系统登录地址
-             *  http://127.0.0.1:9093/sso/login SSO 统一登录接口URL*/
-            redirectUrl=sso_center_url+"?from"+fromUrl;
-        }else {
-            /** 存在票据
-             *  1 验证票据
-             *  2 验证票据是否有效*/
+             *  http://127.0.0.1:9093/sso/login SSO 统一登录接口URL
+             *  跳转地址
+             *  http://127.0.0.1:9093/sso/login?from=http://127.0.0.1:9091/client/login
+             *  */
 
+            redirectUrl=sso_center_url+"?from="+fromUrl;
         }
         return "redirect:"+redirectUrl;
     }

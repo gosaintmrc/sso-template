@@ -32,17 +32,5 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-
-
-    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.asiainfo.dao" />
-        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
-    </bean>
-
-    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="configLocation" value="classpath:config/mybatis-config.xml"/>
-        <property name="dataSource" ref="dataSource"/>
-    </bean>
-
    <!-- <import resource="classpath:redis-conf.xml"/>-->
 </beans>

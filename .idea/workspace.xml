@@ -5,13 +5,78 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="sso-auth-center:war exploded" />
+      <artifact name="sso-client-sys2:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f54f360-3fd9-41f0-8041-cee74ce9c4d2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/static/timg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/dao/SSOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/domain/SSO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/SSOService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/UserCenterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/impl/UserCenterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/ClassUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/ConstName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/ConstUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/ICodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/KV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/Ret.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/resource/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/resource/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-auth-center/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client-sys2/src/main/java/com/asiainfo/web/dispather/MyWebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client-sys2/src/main/java/com/asiainfo/web/dispather/MyWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client-sys2/src/main/java/com/asiainfo/web/dispather/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client-sys2/src/main/resource/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client-sys2/src/main/resource/dispatcher-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-auth-center/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/SSOServerLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/SSOServerLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/src/main/resource/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-auth-center/src/main/resource/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-auth-center/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/classes/com/asiainfo/web/SSOServerLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sso-auth-center/target/classes/com/asiainfo/web/SSOServerLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/classes/com/asiainfo/web/SSOServerLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/classes/com/asiainfo/web/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/classes/dispatcherServlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/commons-lang3-3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/druid-1.1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/log4j-api-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/log4j-core-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/log4j-web-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/lombok-1.16.18.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/mysql-connector-java-5.1.37.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/slf4j-api-1.8.0-alpha0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-aop-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-beans-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-context-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-context-support-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-core-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-data-commons-1.13.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-data-keyvalue-1.2.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-data-redis-1.8.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-expression-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-jdbc-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-oxm-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-test-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-tx-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-web-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/lib/spring-webmvc-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-auth-center/target/sso-auth-center/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/domain/SSO.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/domain/SSO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-client-sys1/target/classes/com/asiainfo/web/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys1/target/classes/com/asiainfo/web/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-client-sys2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-client-sys2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-client-sys2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,92 +93,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-client-sys1/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="133" selection-end-column="19" />
-              <folding>
-                <element signature="n#dependencies#0;n#project#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="58" column="41" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#694#712#1" expanded="true" />
-                <element signature="e#760#784#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sso-auth-center/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dispatcherServlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/resource/dispatcherServlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SSOServerLoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/SSOServerLoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="66">
-                <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="444">
+              <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -121,17 +104,105 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/resource/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="33">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="SSOMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/dao/SSOMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="45" column="20" selection-end-line="47" />
+            <state relative-caret-position="301">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SSOServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/impl/SSOServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserCenterServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/impl/UserCenterServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserCenterService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/UserCenterService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SSOService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/SSOService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ret.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/Ret.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SSO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/domain/SSO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,16 +214,17 @@
       <list>
         <option value="HTML File" />
         <option value="Jsp File" />
-        <option value="FxmlFile" />
         <option value="spring-beans.schema" />
-        <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>login.htm</find>
+      <find>mysql</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -164,23 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-client-sys2/pom.xml" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/webapp/view-source_https___v3.bootcss.com_examples_signin_.html" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/resource/jdbc.properties" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/test/java/com/asiainfo/database.java" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/resource/log4j2.xml" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/webapp/login.html" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/TestController.java" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/webapp/static/js/login.js" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/interceptor/PermissionInterceptor.java" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/domain/User.java" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/service/impl.fxml" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/resource/redis_cxf.properties" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/resource/redis-conf.xml" />
         <option value="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/service/RedisService.java" />
         <option value="$PROJECT_DIR$/sso-client-sys1/src/test/java/com/asiainfo/BaseTest.java" />
         <option value="$PROJECT_DIR$/sso-client-sys1/src/test/java/com/asiainfo/DatabaseTest.java" />
@@ -191,16 +246,47 @@
         <option value="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/util/PropertiesUtil.java" />
         <option value="$PROJECT_DIR$/sso-client-sys1/src/main/resource/sso.properties" />
         <option value="$PROJECT_DIR$/sso-client-sys1/src/test/java/com/asiainfo/RedisTest.java" />
-        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/LoginController.java" />
         <option value="$PROJECT_DIR$/sso-client-sys1/src/main/resource/applicationContext.xml" />
         <option value="$PROJECT_DIR$/sso-client-sys1/src/main/resource/dispatcherServlet.xml" />
-        <option value="$PROJECT_DIR$/sso-auth-center/pom.xml" />
         <option value="$PROJECT_DIR$/sso-auth-center/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/sso-auth-center/src/main/resource/applicationContext.xml" />
         <option value="$PROJECT_DIR$/sso-auth-center/src/main/resource/dispatcherServlet.xml" />
         <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/TestController.java" />
-        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/SSOServerLoginController.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/LoginController.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/webapp/static/js/login.js" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/test/java/asiainfo/RedisTest.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/domain/SSO.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util.fxml" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/ICodes.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/ConstName.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/Ret.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/ClassUtils.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/ConstUtils.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/KV.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/SSOServerLoginController.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/UserCenterService.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/dao/SSODaoImpl.java" />
+        <option value="$PROJECT_DIR$/sso-client-sys2/src/main/java/com/asiainfo/web/dispather/MyWebAppInitializer.java" />
+        <option value="$PROJECT_DIR$/sso-client-sys2/src/main/java/com/asiainfo/web/dispather/MyWebApplicationInitializer.java" />
+        <option value="$PROJECT_DIR$/sso-client-sys2/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/sso-client-sys2/src/main/java/com/asiainfo/web/dispather/TestController.java" />
+        <option value="$PROJECT_DIR$/sso-client-sys2/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/dao/impl/SSODaoImpl.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/dao/SSODao.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/test/java/asiainfo/DatabaseTest.java" />
+        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/dao/SSOMapper.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/resource/dao/SSOMapper.xml" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/resource/config/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/domain/SSO.java" />
+        <option value="$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/domain/SSO.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/resource/com/asininfo/dao/SSOMapper.xml" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/resource/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/sso-auth-center/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/dao/SSOMapper.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/SSOService.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/UserCenterMsgConsts.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/impl/SSOServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/impl/UserCenterServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -239,7 +325,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,14 +336,121 @@
             <path>
               <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
               <item name="sso-template" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-auth-center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-template" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-auth-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-template" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-auth-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-template" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-auth-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-template" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-auth-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="asiainfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-template" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-auth-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="asiainfo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-template" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-auth-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="asiainfo" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-template" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-auth-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="asiainfo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-template" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-auth-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="asiainfo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-template" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-auth-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="asiainfo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-template" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-auth-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-template" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-auth-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sso-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sso-template" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-auth-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,26 +460,30 @@
     <property name="last_opened_file_path" value="D:/asiainfo-Item/yxb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-auth-center\src\main\resource\com\asininfo\dao" />
+      <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-auth-center\target\classes\com\asiainfo" />
       <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-client-sys1\src\main\resource" />
       <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-client-sys1\src\main\resource\sso\config" />
       <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-client-sys1\src\main\webapp\static\js" />
-      <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-client-sys1\src\main\webapp\static\css" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.asiainfo.web.dispather" />
+      <recent name="domain" />
       <recent name="com.asiainfo.web.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\gosaint\IdeaProjects\sso-template\static" />
-      <recent name="D:\Users\gosaint\IdeaProjects\sso-template" />
       <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-auth-center\src\main\resource" />
-      <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-client-sys1\src\main\resource" />
-      <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-client-sys1\src\main\webapp\static" />
+      <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-client-sys2\src\main\resource" />
+      <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-auth-center\src\test\java" />
+      <recent name="D:\Users\gosaint\IdeaProjects\sso-template\sso-auth-center\src\main\webapp" />
+      <recent name="D:\Users\gosaint\IdeaProjects\sso-template\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -301,23 +498,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.server-center-9093">
+  <component name="RunManager" selected="JUnit.DatabaseTest.testMapper">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="PropertiesUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.asiainfo.web.util.PropertiesUtil" />
-      <module name="sso-client-sys1" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DatabaseTest.conn (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sso-auth-center" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.asiainfo.web.util.*" />
+          <option name="PATTERN" value="asiainfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="asiainfo" />
+      <option name="MAIN_CLASS_NAME" value="asiainfo.DatabaseTest" />
+      <option name="METHOD_NAME" value="conn" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="DatabaseTest.conn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sso-client-sys1" />
@@ -342,19 +551,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RedisTest.redisConn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sso-client-sys1" />
+    <configuration name="DatabaseTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sso-auth-center" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.asiainfo.*" />
+          <option name="PATTERN" value="asiainfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.asiainfo" />
-      <option name="MAIN_CLASS_NAME" value="com.asiainfo.RedisTest" />
-      <option name="METHOD_NAME" value="redisConn" />
+      <option name="PACKAGE_NAME" value="asiainfo" />
+      <option name="MAIN_CLASS_NAME" value="asiainfo.DatabaseTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DatabaseTest.testMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sso-auth-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="asiainfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="asiainfo" />
+      <option name="MAIN_CLASS_NAME" value="asiainfo.DatabaseTest" />
+      <option name="METHOD_NAME" value="testMapper" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -477,6 +709,79 @@
         </option>
       </method>
     </configuration>
+    <configuration name="client-sys2-9092" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.52" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="sso-client-sys2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_sso-template_3" />
+        <option name="HTTP_PORT" value="9092" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58583" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="sso-client-sys2:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="server-center-9093" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.52" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -551,19 +856,22 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Tomcat Server.client-sys2-9092" />
       <item itemvalue="Tomcat Server.client-sys1-9091" />
       <item itemvalue="Tomcat Server.server-center-9093" />
-      <item itemvalue="Application.PropertiesUtil" />
       <item itemvalue="JUnit.DatabaseTest.conn" />
-      <item itemvalue="JUnit.RedisTest.redisConn" />
       <item itemvalue="JUnit.RedisTest.test_Value" />
+      <item itemvalue="JUnit.DatabaseTest.conn (1)" />
+      <item itemvalue="JUnit.DatabaseTest.test2" />
+      <item itemvalue="JUnit.DatabaseTest.testMapper" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RedisTest.test_Value" />
-        <item itemvalue="Application.PropertiesUtil" />
-        <item itemvalue="JUnit.RedisTest.redisConn" />
+        <item itemvalue="JUnit.DatabaseTest.testMapper" />
+        <item itemvalue="JUnit.DatabaseTest.test2" />
+        <item itemvalue="JUnit.DatabaseTest.conn (1)" />
         <item itemvalue="JUnit.DatabaseTest.conn" />
+        <item itemvalue="JUnit.RedisTest.test_Value" />
       </list>
     </recent_temporary>
   </component>
@@ -584,35 +892,55 @@
       <workItem from="1533778284066" duration="45000" />
       <workItem from="1533779330005" duration="752000" />
       <workItem from="1533801604826" duration="71000" />
-      <workItem from="1533802462977" duration="6662000" />
+      <workItem from="1533802462977" duration="10762000" />
+      <workItem from="1533824793579" duration="3602000" />
+      <workItem from="1533870344382" duration="2458000" />
+      <workItem from="1533875420164" duration="197000" />
+      <workItem from="1533887986362" duration="10000" />
+      <workItem from="1534302042138" duration="620000" />
+      <workItem from="1534315871821" duration="20000" />
+      <workItem from="1534397428668" duration="3660000" />
+      <workItem from="1534517030092" duration="1122000" />
+      <workItem from="1534518262536" duration="1159000" />
+      <workItem from="1534519530619" duration="1219000" />
+      <workItem from="1534520868495" duration="2673000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DatabaseTest_conn - 2018.08.07 at 21h 41m 35s.xml">
-      <configuration name="DatabaseTest.conn" configurationId="JUnit" />
+    <history-entry file="DatabaseTest_testMapper - 2018.08.18 at 00h 03m 30s.xml">
+      <configuration name="DatabaseTest.testMapper" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTest_conn - 2018.08.07 at 21h 46m 27s.xml">
-      <configuration name="DatabaseTest.conn" configurationId="JUnit" />
+    <history-entry file="DatabaseTest_testMapper - 2018.08.18 at 00h 04m 35s.xml">
+      <configuration name="DatabaseTest.testMapper" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisTest_redisConn - 2018.08.08 at 22h 20m 21s.xml">
-      <configuration name="RedisTest.redisConn" configurationId="JUnit" />
+    <history-entry file="DatabaseTest_testMapper - 2018.08.18 at 00h 06m 07s.xml">
+      <configuration name="DatabaseTest.testMapper" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisTest_redisConn - 2018.08.08 at 22h 25m 26s.xml">
-      <configuration name="RedisTest.redisConn" configurationId="JUnit" />
+    <history-entry file="DatabaseTest_testMapper - 2018.08.18 at 00h 06m 21s.xml">
+      <configuration name="DatabaseTest.testMapper" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisTest_redisConn - 2018.08.08 at 22h 26m 31s.xml">
-      <configuration name="RedisTest.redisConn" configurationId="JUnit" />
+    <history-entry file="DatabaseTest_testMapper - 2018.08.18 at 00h 09m 31s.xml">
+      <configuration name="DatabaseTest.testMapper" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisTest_redisConn - 2018.08.08 at 22h 27m 06s.xml">
-      <configuration name="RedisTest.redisConn" configurationId="JUnit" />
+    <history-entry file="DatabaseTest_testMapper - 2018.08.18 at 00h 10m 34s.xml">
+      <configuration name="DatabaseTest.testMapper" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisTest_test_Value - 2018.08.09 at 16h 36m 33s.xml">
-      <configuration name="RedisTest.test_Value" configurationId="JUnit" />
+    <history-entry file="DatabaseTest_testMapper - 2018.08.18 at 00h 11m 23s.xml">
+      <configuration name="DatabaseTest.testMapper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseTest_testMapper - 2018.08.18 at 00h 12m 50s.xml">
+      <configuration name="DatabaseTest.testMapper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseTest_testMapper - 2018.08.18 at 00h 13m 28s.xml">
+      <configuration name="DatabaseTest.testMapper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseTest_testMapper - 2018.08.18 at 00h 14m 41s.xml">
+      <configuration name="DatabaseTest.testMapper" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35347000" />
+    <option name="totallyTimeSpent" value="56187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -640,10 +968,10 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="TCPMON" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11111111" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14660494" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22739542" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3043185" />
       <window_info anchor="bottom" id="Reviews" order="7" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -663,323 +991,376 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/test/java/asiainfo/RedisTest.java" />
+    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/resource/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="-554">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/resource/dispatcherServlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="561">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/static/image/favicon.ico" />
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/static/css/bootstrap_3.3.7_css_bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util.fxml" />
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/ICodes.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/static/ie10-viewport-bug-workaround.js.下载" />
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/static/ie-emulation-modes-warning.js.下载" />
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/login.html">
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/ConstName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        <state relative-caret-position="216">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/static/ie10-viewport-bug-workaround.css" />
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/static/css/signin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/static/ie10-viewport-bug-workaround.js.下载" />
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/static/js/jquery-1.11.0.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/resource/app.properties" />
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/dao.java" />
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/resource/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="28" column="6" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/TestController.java">
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/ClassUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/static/js/login.js">
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/ConstUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="528">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/interceptor/LoginInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/KV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        <state relative-caret-position="2112">
+          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/interceptor/RedisUtil.java">
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/SSOServerLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="1947">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/service/impl.fxml" />
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/resource/log4j2.xml">
+    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/test/java/com/asiainfo/RedisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/domain/SSO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/resource/redis-conf.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
+        <state relative-caret-position="726">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devs/mvnrepository2/repository/org/springframework/data/spring-data-redis/1.4.2.RELEASE/spring-data-redis-1.4.2.RELEASE.jar!/org/springframework/data/redis/connection/RedisStringCommands.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/service/RedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devs/mvnrepository2/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar!/org/springframework/data/redis/connection/RedisStringCommands.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devs/mvnrepository2/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="486" column="51" selection-start-line="486" selection-start-column="51" selection-end-line="486" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/源码/JDK源码/jdk1.8.zip!/jdk1.8/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-388">
-          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/test/java/com/asiainfo/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="396">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/test/java/com/asiainfo/DatabaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="792">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/service/impl/RedisServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/sso-client-sys2/src/main/java/com/asiainfo/web/dispather/MyWebAppInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="627">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/resource/redis_cxf.properties">
+    <entry file="file://$PROJECT_DIR$/sso-client-sys2/src/main/java/com/asiainfo/web/dispather/MyWebApplicationInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/util/SSOContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/util/PropertiesUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/resource/sso.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/test/java/com/asiainfo/RedisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/resource/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="8" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/resource/dispatcherServlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="133" selection-end-column="19" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-auth-center/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="45" column="20" selection-end-line="47" />
+        <state relative-caret-position="660">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="726">
+          <caret line="22" column="31" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client-sys2/src/main/resource/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client-sys2/src/main/resource/dispatcher-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client-sys2/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client-sys2/src/main/java/com/asiainfo/web/dispather/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.ExecutorService">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.ExecutorService</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.concurrent.Executor</node>
+            <node x="" y="">java.util.concurrent.ExecutorService</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="84.0" y="60.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/roots/dev/java8/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3399">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/roots/dev/java8/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1221">
+          <caret line="70" column="45" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/roots/dev/java8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9240">
+          <caret line="320" column="19" selection-start-line="320" selection-start-column="11" selection-end-line="320" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/roots/dev/java8/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/roots/dev/java8/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client-sys2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4653">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/service/impl/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/dao/impl/SSODaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/resource/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/resource/com/asininfo/dao/SSOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/target/classes/com/asiainfo/SSOMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/test/java/asiainfo/DatabaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/resource/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="17" selection-end-line="5" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/resource/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/target/classes/config/mybatis-config.xml" />
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/resource/config/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/dao/SSOMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/domain/SSO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/resource/com/asininfo/dao/SSOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/resource/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="33">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/resource/dispatcherServlet.xml">
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="444">
+          <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/TestController.java">
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/dao/SSOMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="301">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/domain/SSO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client-sys1/src/main/java/com/asiainfo/web/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/SSOService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/UserCenterMsgConsts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/util/Ret.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/impl/SSOServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/UserCenterService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="58" column="41" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#694#712#1" expanded="true" />
-            <element signature="e#760#784#1" expanded="true" />
-          </folding>
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/web/SSOServerLoginController.java">
+    <entry file="file://$PROJECT_DIR$/sso-auth-center/src/main/java/com/asiainfo/service/impl/UserCenterServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        <state relative-caret-position="298">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
-            <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1037,7 +1418,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sso-auth-center</last-edited>
+          <last-edited>sso-client-sys2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

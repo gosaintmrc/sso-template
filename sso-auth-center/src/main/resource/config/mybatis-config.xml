@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--sql语句打印-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+    <!--别名配置-->
+    <typeAliases>
+        <package name="com.asiainfo.domain"/>
+    </typeAliases>
+
+    <!-- 配置映射文件 -->
+    <mappers>
+        <mapper resource="com/asininfo/dao/SSOMapper.xml"/>
+    </mappers>
+</configuration>
