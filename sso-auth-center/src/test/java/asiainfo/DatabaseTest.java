@@ -6,6 +6,7 @@ import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.DruidPooledConnection;
 import com.asiainfo.dao.SSOMapper;
 import com.asiainfo.domain.SSO;
+import com.asiainfo.service.SSOService;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +28,9 @@ public class DatabaseTest extends BaseTest{
     @Autowired
     private SSOMapper ssoMapper;
 
+    @Autowired
+    private SSOService ssoService;
+
     /**
      * 数据库连接池的测试
      */
@@ -44,6 +48,12 @@ public class DatabaseTest extends BaseTest{
     @Test
     public void testMapper(){
         SSO sso = ssoMapper.getSsoByEmail("15140366082@163.com");
+        System.out.println(sso);
+    }
+
+    @Test
+    public void testService(){
+        SSO sso = ssoService.getSSOByEmail("15140366082@163.com");
         System.out.println(sso);
     }
 }
